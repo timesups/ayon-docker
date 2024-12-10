@@ -119,12 +119,12 @@ restore:
 
 backend:
 	@# Clone / update the backend repository
-	@[ -d $@ ] || git clone https://github.com/ynput/ayon-backend $@
+	@[ -d $@ ] || git clone https://github.com/timesups/ayon-backend $@
 	@cd $@ && git pull
 
 frontend:
 	@# Clone / update the frontend repository
-	@[ -d $@ ] || git clone https://github.com/ynput/ayon-frontend $@
+	@[ -d $@ ] || git clone https://github.com/timesups/ayon-frontend $@
 	@cd $@ && git pull
 
 relinfo:
