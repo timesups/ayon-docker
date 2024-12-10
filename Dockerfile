@@ -17,8 +17,6 @@ COPY ./frontend/tsconfig.node.jso[n] /frontend/
 
 RUN yarn install
 COPY ./frontend/src /frontend/src
-ENV http_proxy http://192.168.80.99:7890
-ENV https_proxy http://192.168.80.99:7890
 RUN yarn build
 
 
