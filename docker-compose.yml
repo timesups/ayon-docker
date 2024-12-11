@@ -61,6 +61,7 @@ services:
 
       # comment out the following line on Windows
       - "/etc/localtime:/etc/localtime:ro"
+      - "/frontend:/frontend"
 
       # uncomment the following line if you need to work on the backend code
       # - "./backend:/backend"
