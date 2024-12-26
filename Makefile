@@ -138,5 +138,5 @@ relinfo:
 
 build: backend frontend relinfo
 	@# Build the docker image
-	docker build -t $(IMAGE_NAME):$(TAG) --build-arg HTTPS_PROXY=http://195.168.80.99:7890 .
+	docker build -t $(IMAGE_NAME):$(TAG) .
 
