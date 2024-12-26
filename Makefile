@@ -124,7 +124,7 @@ backend:
 
 frontend:
 	@# Clone / update the frontend repository
-	@[ -d $@ ] || git clone https://github.com/ynput/ayon-frontend$@
+	@[ -d $@ ] || git clone https://github.com/ynput/ayon-frontend $@
 	@cd $@ && git pull
 
 relinfo:
