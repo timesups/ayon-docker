@@ -136,7 +136,7 @@ function backend {
 function frontend {
   & git -C "$($SCRIPT_DIR)/frontend" pull
   if ($lastexitCode) {
-    & git clone https://github.com/pypeclub/ayon-frontend "$($SCRIPT_DIR)/frontend"
+    & git clone https://github.com/timesups/ayon-backend "$($SCRIPT_DIR)/frontend"
   }
 }
 
