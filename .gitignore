@@ -9,3 +9,5 @@ RELEASE
 
 # JetBrains IDE data
 .idea
+
+*.tar
